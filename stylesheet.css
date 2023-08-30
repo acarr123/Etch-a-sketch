@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.container{
+    display: grid;
+    height: 70%;
+    width: 70%;
+    justify-content: center;
+    background-color: aqua;
+    margin-top: 1em;
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 1em;
+
+}
